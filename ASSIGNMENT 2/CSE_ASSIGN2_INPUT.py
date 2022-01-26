@@ -1,9 +1,9 @@
 # Question 1
 str1="Python is a case sensitive language" 
-print("<A>length og string is:",len(str1)) #function to find LENGTH OF STRING
+print("<A>length og string is:",len(str1)) #to find the length of string
 print("<B>Reversed String is:",str1[::-1])
-str2=str1[10:26] #STORED a case sensitive IN A NEW STRING
-str2.replace("a case sensitive","object oriented") #REPLACED "a case sensitive" WITH "object oriented"
+str2=str1[10:26] #storing case sensitive in new string
+str2.replace("a case sensitive","object oriented") # "a case sensitive" REPLACED BY "object oriented"
 print("<E>The index of substring a is ",str1.find('a'))
 print("<F>The original string after removing whitespaces is",str1.replace(" ",""))
 print("\n")
@@ -25,8 +25,8 @@ b=20
 print("a. ",a&b)
 print("b. ",a|b)
 print("c. ",a^b)
-print("Left shift both a and b with 2 bits respectively are :",a<<2 ,b<<2)
-print("Right shift a with 2 bits and b with 4 bits respectively are : ",a>>2,b>>4)
+print("Left shift both a and b with 2 bits are :",a<<2 ,b<<2)
+print("Right shift a with 2 bits and b with 4 bits are : ",a>>2,b>>4)
 print("\n")
 
 
@@ -60,7 +60,7 @@ print("\n")
 a=float(input("ENTER FIRST SIDE OF TRIANGLE:"))
 b=float(input("ENTER SECOND SIDE OF TRIANGLE:"))
 c=float(input("ENTER THIRD SIDE OF TRIANGLE:"))
-if(a>=(b+c)):      #Equality sign is used as if sum of two sides is equal to third then also triangle is not valid
+if(a>=(b+c)):      #Equality sign used as if sum of two sides is equal to third then triangle is not valid
     print("No")
 elif(b>=(a+c)):
     print("No")
