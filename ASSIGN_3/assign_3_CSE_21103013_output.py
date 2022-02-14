@@ -76,6 +76,7 @@ Search Name with SID: 1
 
 
 Answer_7
+
 ENTER THE NUMBER OF TERMS IN THE SERIES: 7
 Fibonacci sequence:
 0
@@ -86,7 +87,9 @@ Fibonacci sequence:
 5
 8
 AVERAGE OF RESULTANT FIBONACCI SERIES IS 2.857142857142857
+
 Answer_8
+
 <PART a> {1, 3, 5, 6, 8}
 <PART b> {3, 6, 8, 9, 13, 17}
 <PART c> {1, 2, 4, 5}
