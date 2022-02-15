@@ -3,7 +3,7 @@ print("Answer_1\n")
 b=str(input("ENTER A STRING: "))
 b=b.lower()                            #converting STRING into LOWERCASE if entered as UPPERCASE. 
 list=b.split()                        # Splitting ELEMENTS of STRING into a LIST.
-d1={}                               # initializing an empty dictionary named d1.
+d1={}                               # initializing an EMPTY DICTIONARY named d1.
 if list.__len__()==1:             # if statement will execute when ONLY a single word is entered
     for i in list[0]:
         if i in d1:
