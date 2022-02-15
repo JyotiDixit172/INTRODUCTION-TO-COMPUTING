@@ -1,7 +1,3 @@
-Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
-
-= RESTART: C:/Users/12adi/OneDrive/Desktop/assign3_cse_21103013_source_code.py =
 Answer_1
 
 ENTER ANY STRING: are we out of the woods yet are we in the clear yet in the clear yet good
@@ -30,7 +26,7 @@ ENTER THE YEAR: 2022
 
 Answer_3
 
-SIMPLY Enter list elements separated by space: 1 2 3 4 5
+SIMPLY Enter list elements separated by space ONLY: 1 2 3 4 5
 list:  1 2 3 4 5
 [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 
@@ -38,12 +34,13 @@ list:  1 2 3 4 5
 Answer_4
 
 Enter your Grade: 3
-Invalid grade!You can only enter a GRADE between 4-10 should be an int.Try Again
+Invalid grade!You can only enter a GRADE between 4-10 (should be in int).Try Again.
 Enter your Grade: 9
 Grade you entered is: 'A'= EXCELLENT performance
 
 
 Answer_5
+
 ABCDEFGHIJK
  ABCDEFGHI
   ABCDEFG
@@ -53,6 +50,7 @@ ABCDEFGHIJK
 
 
 Answer_6
+
 Enter student's SID(should be unique): 1
 Enter student's NAME: jyoti
 Do you want to ADD another student's details?(Y or N): Y
