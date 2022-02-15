@@ -1,8 +1,9 @@
 #ANSWER_1
 print("Answer_1\n")
-a=str(input("ENTER ANY STRING: "))
-list=a.split()                        # Splitting all elements of string in a list
-d1={}                               # initializing an empty dictionary named d1
+b=str(input("ENTER A STRING: "))
+b=b.lower()                            #converting STRING into LOWERCASE if entered as UPPERCASE. 
+list=b.split()                        # Splitting ELEMENTS of STRING into a LIST.
+d1={}                               # initializing an empty dictionary named d1.
 if list.__len__()==1:             # if statement will execute when ONLY a single word is entered
     for i in list[0]:
         if i in d1:
@@ -18,7 +19,6 @@ else:                             # else statement will execute when MORE than o
             d1[i]=1
     print(d1)
 print("\n")
-
 
 #ANSWER_2
 print("Answer_2\n")
@@ -113,13 +113,13 @@ print("\n")
 
 #ANSWER_3
 print("Answer_3\n")
-inputlist = input('SIMPLY Enter list elements separated by space: ')    # list elements to be given by user
-list2 = inputlist.split()        #splitting of list
+inputlist = input('SIMPLY Enter list elements separated by space ONLY: ')    # list OF elements given by user
+list2 = inputlist.split()          #splitting of list
 
-print('list: ', inputlist)       # print inputlist as new list named list2
+print('list: ', inputlist)         # print inputlist as new list named list2
 
 for i in range(len(list2)):
-    list2[i] = int(list2[i])     # convert each item to int type
+    list2[i] = int(list2[i])       # converting each item to int type
 sq_list =[(list2[i], list2[i]**2) for i in range(len(list2))]
 
 print(sq_list)
@@ -131,7 +131,7 @@ print("Answer_4\n")
 def input_grade():
     grade= int(input("Enter your Grade: "))
     if grade>10 or grade<4:                     # check if the grade meets the conditions
-        print("Invalid grade!You can only enter a GRADE between 4-10 should be an int.Try Again")
+        print("Invalid grade!You can only enter a GRADE between 4-10 (should be in int).Try Again.")
         grade = input_grade()
     return grade
 grade=input_grade()
@@ -153,7 +153,7 @@ print("\n")
 
 
 #Answer_5
-print("Answer_5")
+print("Answer_5\n")
 x = 6
 for i in range(x):
     # printing spaces
@@ -161,12 +161,12 @@ for i in range(x):
         print(' ', end='')
     # printing alphabet
     for j in range(2*(x-i)-1):
-        print(chr(65 + j), end='')  #ASCII VALUE OF A=65,B=66,C=67,D=68,E=69,F=70,G=71,H=72,I=73,J=74,K=75
+        print(chr(65 + j), end='')  #ASCII VALUE OF A=65, B=66, C=67, D=68, E=69, F=70, G=71, H=72, I=73, J=74, K=75
     print()
 print("\n")
 
 #Answer_6
-print("Answer_6")
+print("Answer_6\n")
 SID = int(input("Enter student's SID(should be unique): "))
 NAME = input("Enter student's NAME: ")
 STUDENT= {SID:NAME}
@@ -198,14 +198,14 @@ print("\n")
 
 
 #Answer_7
-print("Answer_7")
-def recur_fibo(n):            #  Function to display the Fibonacci sequence
+print("Answer_7\n")
+def recur_fibo(n):                    #  Function displaying Fibonacci sequence
    if n <= 1:
        return n
    else:
        return(recur_fibo(n-1) + recur_fibo(n-2))
 no_of_terms=int(input("ENTER NUMBER OF TERMS IN REQUIRED IN FIBONACCI SERIES: "))
-if no_of_terms <= 0:               # Check if the number of terms is valid
+if no_of_terms <= 0:                     # Checking if no. of terms is valid
    print("Plese enter a positive integer")
 else:
    print("The Fibonacci sequence is:")
@@ -218,7 +218,7 @@ print("AVERAGE OF FIBONACCI SERIES IS:",avg)
 
 
 #Answer_8
-print("Answer_8")
+print("Answer_8\n")
 Set1 = {1, 2, 3, 4, 5}
 Set2 = {2, 4, 6, 8}
 Set3 = {1, 5, 9, 13, 17}
